@@ -1,8 +1,20 @@
 package: github.com/go-crazy/authentication
+ignore:
+- appengine
+- google.golang.org/appengine/cloudsql
+- golang.org/x/net/trace
+- golang.org/x/net/context
+- golang.org/x/net/html
+- golang.org/x/net/publicsuffix
+- golang.org/x/crypto/md4
+- golang.org/x/crypto/acme/autocert
 import:
 - package: github.com/dgrijalva/jwt-go
   subpackages:
   - request
+- package: golang.org/x/net
+- package: golang.org/x/crypto
+- package: golang.org/x/sys
 - package: github.com/garyburd/redigo
   subpackages:
   - redis
