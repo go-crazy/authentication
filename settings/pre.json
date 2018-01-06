@@ -1,0 +1,5 @@
+{
+  "PrivateKeyPath": "/home/vagrant/go/src/github.com/go-crazy/authentication/settings/keys/private_key",
+  "PublicKeyPath": "/home/vagrant/go/src/github.com/go-crazy/authentication/settings/keys/public_key.pub",
+  "JWTExpirationDelta": 72
+}
